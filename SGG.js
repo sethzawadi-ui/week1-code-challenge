@@ -2,7 +2,7 @@ function getGrade()
 // the function is called when the user clicks the "Get Grade" button
 {
 let marks = document.getElementById("marks").value
-// Sends a prompt to the user to ask the user to input their marks
+// Get the value entered in the input box with id="marks" and store it in the variable 'marks'
 let outputMessage;
 if (marks < 0 || marks > 100) {
     outputMessage = 'Invalid input. Please enter a number between 0 and 100'; //holds the final text to be displayed
